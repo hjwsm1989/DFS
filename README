@@ -16,3 +16,4 @@ heartbeat_from                   heartbeat_from
 但是，当osd0认为osd1是其peer，而osd1属于新增的osd，并不认为是osd0的peer
 此时，信息的不对称导致osd1不会发送ping::heartbeat给osd0
 从而导致osd0在一定的时间间隔内没有收到osd1的ping回复，进而主动标记osd1为failed
+弄清楚这些很重要
