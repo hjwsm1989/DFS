@@ -1,0 +1,6 @@
+#incldue <Cond.h>
+
+int main()
+{
+	return 0;
+}
