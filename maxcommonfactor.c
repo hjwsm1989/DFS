@@ -11,6 +11,14 @@ int main ()
   r = 0;
   printf("Please Enter m and n \n");
   scanf("%d%d", m, n);
+
+  if (m < n)
+  {
+    int temp;
+    temp = m;
+    m = n;
+    n = temp;
+  }
   
   while (1) {
     r = m % n;
